@@ -1,0 +1,35 @@
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+.download_link {
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p {
+  font-size: 21px;
+}
+
+p, .footer {
+  color: Gray;
+}
+
+.footer{
+  text-align: right;
+}
+
+p, h1, h2, .footer{
+  font-family: Verdana;
+}
+
+h1, h2 {
+  color: white;
+}
