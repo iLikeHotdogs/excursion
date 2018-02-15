@@ -1,7 +1,13 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  color: white;
+}
+
 h1 {
   font-weight: normal;
   font-size: 50px;
-  text-align: center;
 }
 
 .download_link {
@@ -26,9 +32,6 @@ p, .footer {
   text-align: right;
 }
 
-p, h1, h2, .footer{
-  font-family: Verdana;
-}
 
 h1, h2 {
   color: white;

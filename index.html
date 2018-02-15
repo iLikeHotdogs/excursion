@@ -6,7 +6,8 @@
     <title>Excursion</title>
   </head>
   <body>
-    <body style= "background-color:black; text-align:center">
+
+      <!-- Landing Section -->
     <h1> Discover hidden places in the world around you </h1>
 
     <div>
@@ -15,26 +16,36 @@
     </div>
 
     <div>
-      <video src="./resources/videos/excursion.mp4" width="404" height="720"
-      controls> Video Not Supported
+      <video autoplay muted loop>
+        <source src="./resources/videos/excursion.mp4">
+        Video Not Supported
       </video>
     </div>
 
+      <!--Information Sertion -->
     <div>
       <h2>Your personal travel guide</h2>
       <p> Excursion remembers places you like, and recommends new points of
         interest around you</p>
-      <img src= "./resources/images/camp.jpg"
-        alt="camp tent"/>
+      <p><img src= "./resources/images/camp.jpg"
+        alt="camp tent"/></p>
       </br>
     </div>
 
+    <!-- Coming Soon Section -->
+
     <div>
     </br>
-      <img src= "./resources/images/phone.png"
-        alt="cell phone image"/>
+      <p><img class= "app" src= "./resources/images/phone.png"
+        alt="cell phone image"/></p>
       <h2> Coming Soon for iPhone and Android</h2>
-      <a class= "download_link" href = "#"> Download Excursion (Coming soon!)</a>
+      <p><a class= "download_link" href = "#"> Download Excursion
+        (Coming soon!)</a></p>
+    </div>
+
+    <!-- Footer -->
+
+    <div>
       <p class = "footer"> @ Excursion</p>
     </div>
   </body>
